@@ -24,14 +24,14 @@ class _ForgotpasswordState extends State<Forgotpassword> {
                       child: Icon(
                         Icons.keyboard_arrow_left,
                         color: Colors.black,
-                        size: 40,
+                        size: 30,
                       ),
                     )),
                 Padding(
                   padding: const EdgeInsets.only(left: 0),
                   child: Text("Forgot Password",
                       style:
-                          TextStyle(fontWeight: FontWeight.bold, fontSize: 28)),
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 26)),
                 ),
               ],
             ),

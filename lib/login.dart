@@ -5,6 +5,7 @@ import 'package:login_page/forget.dart';
 import 'package:login_page/signup.dart';
 import 'package:flutter/widgets.dart';
 
+// ignore: import_of_legacy_library_into_null_safe
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 // import 'package:firebase_core/firebase_core.dart';

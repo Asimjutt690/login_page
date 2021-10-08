@@ -21,7 +21,14 @@ class _SearchState extends State<Search> {
   //            ),
   //     ],
     ),
-    body: Container(
+    body: 
+    
+
+Center(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+              Container(
                   
                   width: MediaQuery.of(context).size.width *1,
                   child: Padding(
@@ -33,8 +40,16 @@ class _SearchState extends State<Search> {
                       ),
                     ),
                   ),
-                ),
-    
+                ),  
+              SizedBox(height: 145,),
+              Text("Sir, there was a problem with my laptop,",style: TextStyle(fontWeight: FontWeight.bold),),
+              Text("so I didn't install a Firebase and Authentication"),
+              Text("Sorry!"),
+            
+
+            ],),
+          ),
+
     
     );
   }
